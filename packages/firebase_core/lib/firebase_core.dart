@@ -8,7 +8,7 @@ import 'dart:async';
 import 'dart:io' show Platform;
 import 'dart:ui' show hashValues;
 
-import 'package:flutter/services.dart';
+import 'package:flutter_web/services.dart';
 import 'package:meta/meta.dart';
 
 part 'src/firebase_app.dart';
