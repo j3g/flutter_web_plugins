@@ -11,19 +11,20 @@ In the future flutter_web will be merged with flutter master. At that time this 
 
 Working Plugins
 ---------------
-* provider
-  - works as expected
-* flutter_progress_button
-  - TBD
+
+	* provider
+	  - works as expected
+	* flutter_progress_button
+	  - TBD
 
 
 Not Working Plugins (for your referrence)
 -----------------------------------------
 These packages are listed for referrence. These packages were an early attempt to get working, but failed for the reasons below:
-* firebase_core
-  - cannot run on web because it is only a wrapper. this plugin depends on native code for Android/iOS. also developers intentionally added an exception that throws when trying to use this on flutter_web. "this is not compatible with flutter web preview".
-* cloud_firestore
-  - cannot run on web because it is only a wrapper. this plugin depends on native code for Android/iOS. also developers intentionally added an exception that throws when trying to use this on flutter_web. "this is not compatible with flutter web preview".
+	* firebase_core
+	  - cannot run on web because it is only a wrapper. this plugin depends on native code for Android/iOS. also developers intentionally added an exception that throws when trying to use this on flutter_web. "this is not compatible with flutter web preview".
+	* cloud_firestore
+	  - cannot run on web because it is only a wrapper. this plugin depends on native code for Android/iOS. also developers intentionally added an exception that throws when trying to use this on flutter_web. "this is not compatible with flutter web preview".
 
 
 Usage
